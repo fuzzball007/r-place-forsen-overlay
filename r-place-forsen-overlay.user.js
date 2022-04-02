@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         /r/place forsenE
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  The face of Twitch
 // @author       /u/irate_kalypso and /u/fuzzball007
 // @match        https://hot-potato.reddit.com/embed*
@@ -15,7 +15,7 @@ if (window.top !== window.self) {
             document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
-            i.src = "https://i.imgur.com/GMFPuOZ.png";
+            i.src = "https://hotbear.org/img/reddit.png";
             i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;";
             console.log(i);
             return i;
