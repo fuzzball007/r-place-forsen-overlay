@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         /r/place forsenE
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.2
 // @description  The face of Twitch
 // @author       /u/irate_kalypso and /u/fuzzball007
 // @match        https://hot-potato.reddit.com/embed*
